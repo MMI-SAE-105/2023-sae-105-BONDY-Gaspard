@@ -6,3 +6,25 @@ article {
     background-color: var(--violet-clair);
 }
 
+.logo_site {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.item_align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_bouton {
+    display: flex;
+    margin-right: 5%;
+}
+
+.click_bouton {
+    display: flex;
+    margin: auto;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}

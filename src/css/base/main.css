@@ -7,3 +7,70 @@
 main {
     width: 100%;
 }
+
+.texte_special_1 {
+    font-family: 'Lobster Two', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--noir-texte);
+    margin-inline: 5%;
+    margin-top: 10%;
+}
+
+.p_noir {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--noir-texte);
+    margin-inline: 5%;
+    margin-top: -7%;
+    margin-bottom: 5%;
+}
+
+.p_noir_2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--noir-texte);
+    margin-inline: 5%;
+    margin-bottom: 5%;
+}
+
+.p_blanc {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--blanc-texte);
+    margin-inline: 5%;
+    margin-bottom: 8%;
+}
+
+h3 {
+    font-family: 'Lobster Two', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 37px;
+    color: var(--blanc-texte);
+    margin-inline: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Lobster Two', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--blanc-texte);
+    margin-inline: 5%;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--noir-texte);
+    margin-inline: 5%;
+}
