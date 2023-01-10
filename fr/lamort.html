@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Express's Art - La Mort de Marat </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Site web de Express's Art">
+    <link rel="icon" href="#">
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/css/pages/style.css'>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="bouton_home" src="/public/icone/musee.svg" alt="icone retour à l'Accueil">
+            <div class="menu-overlay" x-data="{ open: false }">
+              <button @click="open = !open" class="menu-toggle">
+                <img src="/public/icone/menu_hamburger.svg" alt="icone du menu">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div x-show="open" class="overlay">
+                <nav>
+                  <ul>
+                    <li><a href="/fr/expressionnisme.html">Expressionnisme</a></li>
+                    <li><a href="/fr/nos_tarifs.html">Nos Tarifs</a></li>
+                    <li><a href="/fr/infos_pratiques.html">Infos Pratiques</a></li>
+                    <li><a href="/fr/contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        <h1>EXPRESS's ART</h1>
+        <h2>La Mort de Marat</h2>
+        <img src="/public/img/illustration_page_accueil.webp" alt="Image d'illustration">
+    </header>
+    <main>
+        <h5>La Mort de Marat de Edward Munch c'est quoi ?</h5>
+        <p>"La Mort de Marat" (The Death of Marat) n'est pas une œuvre d'Edward Munch mais de jacques-Louis David, un peintre français de la fin du XVIIIème siècle.</p>
+        <p>Il s'agit d'un tableau à l'huile sur toile qui représente le corps nu de Jean-Paul Marat, un homme politique et journaliste révolutionnaire français, étendu dans son baignoire après avoir été assassiné par Charlotte Corday en 1793. Le tableau a été peint en 1793 et il est considéré comme l'un des symboles les plus importants de la Révolution française.</p>
+        <img src="/public/img/la-mort-de-Marat-Edward-Munch.webp" alt="Blue Poles, Jackson Pollock">
+        <p>David a choisi de représenter Marat sous un jour héroïque, en le montrant comme un martyr de la liberté, et en utilisant une composition classique pour souligner la dignité et la grandeur de la scène. Il est aussi utilisant un éclairage dramatique pour mettre en valeur le corps de Marat, alors que les teintes chaudes utilisé pour les couleurs accentue la passion et le sacrifice.</p>
+        <p>Cette œuvre est considérée comme l'une des plus importantes de la carrière de David et est souvent étudiée en tant qu'exemple de la manière dont l'art peut être utilisé pour influencer les opinions politiques. Elle est aujourd'hui conservée au musée du Louvre à Paris.</p>
+    </main>
+    <footer>
+        <img src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">
+        <h6>MENU</h6>
+        <ul>
+            <li><a href="/fr/index.html">ACCUEIL</a></li>
+            <li><a href="/fr/infos_pratiques.html">INFOS PRATIQUES</a></li>
+            <li><a href="/fr/nos_tarifs.html">NOS TARIFS</a></li>
+            <li><a href="/fr/contact.html">CONTACT</a></li>
+        </ul>
+        <h6>CONTACT</h6>
+        <a href="mailto:contact@expressart.fr">contact@expressart.fr</a>
+        <h6>NOUS SUIVRE</h6>
+        <div>
+            <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
+                <img src="/public/icone/ytb.svg" alt="Logo YouTube">
+            </a>
+            <a href="https://twitter.com/GaspardTex" target="_blank">
+                <img src="/public/icone/twitter.svg" alt="Logo Twitter">
+            </a>
+            <a href="https://www.twitch.tv/gaspardtex" target="_blank">
+                <img src="/public/icone/twitch.svg" alt="Logo Twitch">
+            </a>
+            <a href="https://www.instagram.com/gaspardtex/?hl=fr" target="_blank">
+                <img src="/public/icone/insta.svg" alt="Logo Instagram">
+            </a>
+        </div>
+        <h6>©EXPRESS’s ART</h6>
+    </footer>
+</body>
+</html>
