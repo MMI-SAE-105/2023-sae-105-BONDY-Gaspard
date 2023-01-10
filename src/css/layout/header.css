@@ -1,3 +1,36 @@
 header {
-    background-color: gray;
+background-color: var(--violet-fonce);
+}
+
+h1 {
+    font-family: 'Lobster Two', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--blanc-texte);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lobster Two', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--blanc-texte);
+    text-align: center;
+    font-size: 40px;
+    background-color: var(--violet-clair);
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.header_illustration {
+    max-width: 100%;
+    margin-top: -10%;
+    margin-bottom: -5%;
+}
+
+.header_line {
+    width: 65%;
+    color: var(--blanc-texte);
+    height: 0.5px;
+    background-color: var(--blanc-texte);
 }
