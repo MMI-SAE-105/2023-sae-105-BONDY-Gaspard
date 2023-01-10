@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Express's Art - Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Site web de Express's Art">
+    <link rel="icon" href="#">
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/css/pages/style.css'>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="bouton_home" src="/public/icone/musee.svg" alt="icone retour à l'Accueil">
+            <div class="menu-overlay" x-data="{ open: false }">
+              <button @click="open = !open" class="menu-toggle">
+                <img src="/public/icone/menu_hamburger.svg" alt="icone du menu">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div x-show="open" class="overlay">
+                <nav>
+                  <ul>
+                    <li><a href="/fr/expressionnisme.html">Expressionnisme</a></li>
+                    <li><a href="/fr/nos_tarifs.html">Nos Tarifs</a></li>
+                    <li><a href="/fr/infos_pratiques.html">Infos Pratiques</a></li>
+                    <li><a href="/fr/contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        <h1>EXPRESS's ART</h1>
+        <h2>Contact</h2>
+        <img src="/public/img/illustration_page_accueil.webp" alt="Image d'illustration">
+    </header>
+    <main>
+        <h5>Vous souhaitez nous contacter afin d'obtenir plus d'informations, c'est juste ici.</h5>
+        <div class="contact_form_name">
+            <div class="contact_form_name">
+            <label for="last-name">Nom</label>
+            </div>
+            <input class="contact_form_style" type="text" name="last-name" id="last-name" required>
+          </div>
+          <div class="contact_form_name">
+            <div class="contact_form_name">
+            <label for="first-name">Prénom</label>
+            </div>
+            <input class="contact_form_style" type="text" name="first-name" id="first-name" required>
+          </div>
+          <div class="contact_form_name">
+            <div class="contact_form_name">
+            <label for="objectmess">Objet</label>
+            </div>
+            <input class="contact_form_style" type="text" name="objectmess" id="objectmess" required>
+          </div>
+          <div class="contact_form_name">
+            <div class="contact_form_name">
+            <label for="message">Message</label>
+            </div>
+            <textarea class="contact_form_style" name="message" id="message" rows="15" required></textarea>
+          </div>
+          <button class="contact_form_button" type="submit">Envoyez</button>
+    </main>
+    <footer>
+        <img src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">
+        <h6>MENU</h6>
+        <ul>
+            <li><a href="/fr/index.html">ACCUEIL</a></li>
+            <li><a href="/fr/infos_pratiques.html">INFOS PRATIQUES</a></li>
+            <li><a href="/fr/nos_tarifs.html">NOS TARIFS</a></li>
+            <li><a href="/fr/contact.html">CONTACT</a></li>
+        </ul>
+        <h6>CONTACT</h6>
+        <a href="mailto:contact@expressart.fr">contact@expressart.fr</a>
+        <h6>NOUS SUIVRE</h6>
+        <div>
+            <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
+                <img src="/public/icone/ytb.svg" alt="Logo YouTube">
+            </a>
+            <a href="https://twitter.com/GaspardTex" target="_blank">
+                <img src="/public/icone/twitter.svg" alt="Logo Twitter">
+            </a>
+            <a href="https://www.twitch.tv/gaspardtex" target="_blank">
+                <img src="/public/icone/twitch.svg" alt="Logo Twitch">
+            </a>
+            <a href="https://www.instagram.com/gaspardtex/?hl=fr" target="_blank">
+                <img src="/public/icone/insta.svg" alt="Logo Instagram">
+            </a>
+        </div>
+        <h6>©EXPRESS’s ART</h6>
+    </footer>
+</body>
+</html>
