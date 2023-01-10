@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Express's Art - Le Cri</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Site web de Express's Art">
+    <link rel="icon" href="#">
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/css/pages/style.css'>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="bouton_home" src="/public/icone/musee.svg" alt="icone retour à l'Accueil">
+            <div class="menu-overlay" x-data="{ open: false }">
+              <button @click="open = !open" class="menu-toggle">
+                <img src="/public/icone/menu_hamburger.svg" alt="icone du menu">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div x-show="open" class="overlay">
+                <nav>
+                  <ul>
+                    <li><a href="/fr/expressionnisme.html">Expressionnisme</a></li>
+                    <li><a href="/fr/nos_tarifs.html">Nos Tarifs</a></li>
+                    <li><a href="/fr/infos_pratiques.html">Infos Pratiques</a></li>
+                    <li><a href="/fr/contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        <h1>EXPRESS's ART</h1>
+        <h2>Le Cri</h2>
+        <img src="/public/img/illustration_page_accueil.webp" alt="Image d'illustration">
+    </header>
+    <main>
+        <h5>Le Cri de Edward Munch c'est quoi ?</h5>
+        <p>"Le Cri" (The Scream) est une œuvre d'art célèbre de l'artiste norvégien Edward Munch. Il a été peint en 1895 et il en existe plusieurs versions : une version à l'huile sur papier, une version à l'huile sur toile et une version en pastel sur papier.</p>
+        <p>L'œuvre représente un personnage debout sur un pont, enveloppé dans un manteau, tenant ses oreilles et poussant un cri silencieux. Derrière lui, le paysage est déformé par des couleurs vives et des formes fantastiques, comme s'il était en proie à une crise d'angoisse ou à une vision cauchemardesque.</p>
+        <img src="/public/img/Le-Cri-Edward-Munch.webp" alt="Blue Poles, Jackson Pollock">
+        <p>Munch a décrit cette œuvre comme "l'expression d'une angoisse universelle", reflétant les tourments de l'âme humaine. Il a également décrit la scène comme inspirée par une promenade qu'il a faite à Oslo, où il a vu "un rouge vif dans le ciel, comme un grand incendie".</p>
+        <p>Le Cri a été l'un des premiers exemples de l'expressionnisme, un mouvement artistique qui mettait l'accent sur les émotions et les états d'âme plutôt que sur la réalité objective. Il a également été influent pour l'Art abstrait et sur les courant de l'art contemporain.</p>
+        <p>Cette œuvre est devenue l'une des plus célèbres et des plus reconnaissables de l'histoire de l'art et a été largement commentée et interprétée par les critiques d'art et les historiens de l'art. Elle est aujourd'hui conservée dans les collections du Musée d'Oslom et a été reproduite des milliers de fois sous différentes formes.</p>
+    </main>
+    <footer>
+        <img src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">
+        <h6>MENU</h6>
+        <ul>
+            <li><a href="/fr/index.html">ACCUEIL</a></li>
+            <li><a href="/fr/infos_pratiques.html">INFOS PRATIQUES</a></li>
+            <li><a href="/fr/nos_tarifs.html">NOS TARIFS</a></li>
+            <li><a href="/fr/contact.html">CONTACT</a></li>
+        </ul>
+        <h6>CONTACT</h6>
+        <a href="mailto:contact@expressart.fr">contact@expressart.fr</a>
+        <h6>NOUS SUIVRE</h6>
+        <div>
+            <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
+                <img src="/public/icone/ytb.svg" alt="Logo YouTube">
+            </a>
+            <a href="https://twitter.com/GaspardTex" target="_blank">
+                <img src="/public/icone/twitter.svg" alt="Logo Twitter">
+            </a>
+            <a href="https://www.twitch.tv/gaspardtex" target="_blank">
+                <img src="/public/icone/twitch.svg" alt="Logo Twitch">
+            </a>
+            <a href="https://www.instagram.com/gaspardtex/?hl=fr" target="_blank">
+                <img src="/public/icone/insta.svg" alt="Logo Instagram">
+            </a>
+        </div>
+        <h6>©EXPRESS’s ART</h6>
+    </footer>
+</body>
+</html>
