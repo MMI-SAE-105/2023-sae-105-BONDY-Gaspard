@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Express's Art - Jackson Pollock</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Site web de Express's Art">
+    <link rel="icon" href="#">
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/css/pages/style.css'>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="bouton_home" src="/public/icone/musee.svg" alt="icone retour à l'Accueil">
+            <div class="menu-overlay" x-data="{ open: false }">
+              <button @click="open = !open" class="menu-toggle">
+                <img src="/public/icone/menu_hamburger.svg" alt="icone du menu">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div x-show="open" class="overlay">
+                <nav>
+                  <ul>
+                    <li><a href="/fr/expressionnisme.html">Expressionnisme</a></li>
+                    <li><a href="/fr/nos_tarifs.html">Nos Tarifs</a></li>
+                    <li><a href="/fr/infos_pratiques.html">Infos Pratiques</a></li>
+                    <li><a href="/fr/contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        <h1>EXPRESS's ART</h1>
+        <h2>Jackson Pollock</h2>
+        <img src="/public/img/illustration_page_accueil.webp" alt="Image d'illustration"> 
+    </header>
+    <main>
+        <h5>Mais qui est Jackson Pollock ?</h5>
+        <p>Jackson Pollock était un artiste américain connu pour son style abstrait expressif qui a révolutionné l'art moderne. Il est surtout connu pour son technique de "goutte à goutte", où il a versé et jeté des couleurs sur la toile en utilisant des pinceaux, des brosses et même des bâtons. Cette technique lui a permis de créer des œuvres complexe et intense avec des couches de couleurs et de formes. Les œuvres de Pollock sont souvent considérées comme des expressions de l'inconscient et de l'énergie primitive. Il est considéré comme l'un des artistes les plus importants de l'expressionnisme abstrait et continue d'inspirer les artistes contemporains.</p>
+        <h5>Oeuvre de Jackson Pollock</h5>
+        <a href="/fr/mural.html"><img src="/public/img/Mural-Jackson-Pollock.webp" alt="Mural, Jackson Pollock"></a>
+        <img src="/public/img/Jackson_Pollock.webp" alt="Photo de Jackson Pollock">
+        <a href="/fr/bluepoles.html"><img src="/public/img/Blue-Poles-Jackson-Pollock.webp" alt="Blue Poles, Jackson Pollock"></a>
+        <div>
+            <img src="/public/icone/Rond_noir.svg" alt="Rond noir">
+            <img src="/public/icone/Rond_gris.svg" alt="Rond gris">
+            <img src="/public/icone/Rond_gris.svg" alt="Rond gris">
+        </div>
+        <div>
+            <img src="/public/icone/bouton_gauche.svg" alt="Bouton gauche">
+            <img src="/public/icone/bouton_droit.svg" alt="Bouton droit">
+        </div>
+        <article>
+            <h3>En savoir plus sur les oeuvres de Jackson Pollock ?</h3>
+            <p>Cliquer sur les oeuvres de l'artiste pour en savoir plus !</p>
+        </article>
+    </main>
+    <footer>
+        <img src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">
+        <h6>MENU</h6>
+        <ul>
+            <li><a href="/fr/index.html">ACCUEIL</a></li>
+            <li><a href="/fr/infos_pratiques.html">INFOS PRATIQUES</a></li>
+            <li><a href="/fr/nos_tarifs.html">NOS TARIFS</a></li>
+            <li><a href="/fr/contact.html">CONTACT</a></li>
+        </ul>
+        <h6>CONTACT</h6>
+        <a href="mailto:contact@expressart.fr">contact@expressart.fr</a>
+        <h6>NOUS SUIVRE</h6>
+        <div>
+            <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
+                <img src="/public/icone/ytb.svg" alt="Logo YouTube">
+            </a>
+            <a href="https://twitter.com/GaspardTex" target="_blank">
+                <img src="/public/icone/twitter.svg" alt="Logo Twitter">
+            </a>
+            <a href="https://www.twitch.tv/gaspardtex" target="_blank">
+                <img src="/public/icone/twitch.svg" alt="Logo Twitch">
+            </a>
+            <a href="https://www.instagram.com/gaspardtex/?hl=fr" target="_blank">
+                <img src="/public/icone/insta.svg" alt="Logo Instagram">
+            </a>
+        </div>
+        <h6>©EXPRESS’s ART</h6>
+    </footer>
+</body>
+</html>
