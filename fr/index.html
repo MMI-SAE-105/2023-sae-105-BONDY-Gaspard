@@ -12,11 +12,29 @@
 </head>
 <body>
     <header>
-        <img src="/public/icone/musee.svg" alt="icone retour à l'Accueil">
-        <img src="/public/icone/menu_hamburger.svg" alt="icone du menu">
+        <div class="container">
+            <img class="bouton_home" src="/public/icone/musee.svg" alt="icone retour à l'Accueil">
+            <div class="menu-overlay" x-data="{ open: false }">
+              <button @click="open = !open" class="menu-toggle">
+                <img src="/public/icone/menu_hamburger.svg" alt="icone du menu">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div x-show="open" class="overlay">
+                <nav>
+                  <ul>
+                    <li><a href="#">Expressionnisme</a></li>
+                    <li><a href="#">Nos Tarifs</a></li>
+                    <li><a href="#">Infos Pratiques</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
         <h1>EXPRESS's ART</h1>
         <h2>Bienvenue !</h2>
         <img src="/public/img/illustration_page_accueil.webp" alt="Image d'illustration">
+            
     </header>
     <main>
         <h5>EXPRESS'S ART</h5>
