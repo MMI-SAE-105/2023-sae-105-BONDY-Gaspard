@@ -1,0 +1,17 @@
+:root {
+
+/* Color styles */
+--violet-clair: #801CBE;
+--noir-texte: #252424;
+--blanc-texte: #FFFFFF;
+--violet-fonce: #430D6E;
+--violet-mi-fonce-mi-clair: #5A1088;
+
+/* Text-size styles */
+/* base size: lobster--two-30px (30px) */
+--lobster--two-30px: 1rem;
+--mulish-18px: 0.57rem;
+--dancing--script-20px: 0.67rem;
+--mulish-18px-bold: 0.6rem;
+
+}
