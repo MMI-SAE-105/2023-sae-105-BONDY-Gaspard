@@ -1,1 +1,8 @@
+body {
+    background-color: var(--blanc-texte);
+}
+
+article {
+    background-color: var(--violet-clair);
+}
 
