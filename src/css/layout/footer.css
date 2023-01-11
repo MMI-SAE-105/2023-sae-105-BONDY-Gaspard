@@ -22,10 +22,6 @@ h6 {
     list-style: none;
 }
 
-.footer_li {
-    
-}
-
 .footer_li_content {
     text-decoration: none;
     color: var(--blanc-texte);
