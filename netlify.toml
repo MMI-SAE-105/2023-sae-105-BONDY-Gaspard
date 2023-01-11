@@ -1,0 +1,78 @@
+# Configuration for a plugin published to npm
+[[plugins]]
+ package = "@netlify/plugin-lighthouse"
+ 
+[[plugins.inputs.audits]]
+    output_path="reports/fr/index.html"
+    path = "reports/fr/index.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/en/index_en.html"
+    path = "reports/en/index_en.html"
+    
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/bluepoles.html"
+    path = "reports/fr/bluepoles.html"
+    
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/contact.html"
+    path = "reports/fr/contact.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/edward_munch.html"
+    path = "reports/fr/edward_munch.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/expressionnisme.html"
+    path = "reports/fr/expressionnisme.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/infos_pratiques.html"
+    path = "reports/fr/infos_pratiques.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/jackson_pollock.html"
+    path = "reports/fr/jackson_pollock.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/jardin_arc.html"
+    path = "reports/fr/jardin_arc.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/lamort.html"
+    path = "reports/fr/lamort.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/lecri.html"
+    path = "reports/fr/lecri.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/les_oliviers.html"
+    path = "reports/fr/les_oliviers.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/mural.html"
+    path = "reports/fr/mural.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/nos_tarifs.html"
+    path = "reports/fr/nos_tarifs.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/nuit_etoilee.html"
+    path = "reports/fr/nuit_etoilee.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/paul_klee.html"
+    path = "reports/fr/paul_klee.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/thedream.html"
+    path = "reports/fr/thedream.html"
+
+[[plugins.inputs.audits]]
+    output_path = "reports/fr/vincent_van_gogh.html"
+    path = "reports/fr/vincent_van_gogh.html"
+
+
+
