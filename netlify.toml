@@ -1,4 +1,4 @@
-# Configuration for a plugin publishe
+# Configuration for a plugin published to npm
 [[plugins]]
  package = "@netlify/plugin-lighthouse"
  
