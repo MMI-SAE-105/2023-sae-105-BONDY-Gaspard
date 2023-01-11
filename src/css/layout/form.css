@@ -1,0 +1,35 @@
+.contact_form_style {
+    background-color: var(--blanc-texte);
+    border-color: var(--violet-clair);
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.contact_form_texte {
+    background-color: var(--blanc-texte);
+    border-color: var(--violet-clair);
+    display: flex;
+    margin: auto;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 1%;
+}
+
+
+.contact_form_button {
+    background-color: var(--violet-clair);
+    border-color: var(--violet-clair);
+    color: var(--blanc-texte);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    display: flex;
+    margin: auto;
+    margin-left: 50%;
+    margin-bottom: 10%;
+    cursor: pointer;
+    height: 30px;
+}
