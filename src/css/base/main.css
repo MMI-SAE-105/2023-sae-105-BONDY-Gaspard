@@ -37,6 +37,16 @@ main {
     margin-top: 5%;
 }
 
+.p_noir_3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--noir-texte);
+    margin-bottom: -10%;
+    margin-inline: 5%;
+    margin-top: 15%;
+}
+
 .p_blanc_2 {
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
