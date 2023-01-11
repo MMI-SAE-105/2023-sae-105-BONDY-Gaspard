@@ -8,6 +8,7 @@ body {
 
 article {
     background-color: var(--violet-clair);
+    margin-bottom: 10%;
 }
 
 .logo_site {
