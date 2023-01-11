@@ -4,7 +4,7 @@
 - URL du site : https://expressart.gaspardbondy.fr
 - URL FIGMA : https://www.figma.com/file/PfXNrhz6ICqspgGEzpMH5D/SAE-105---Gaspard-BONDY-A1?node-id=0%3A1&t=NyMtU6ZKxG0MtPRA-1
 
-Rapport LightHouse : https://expressart.gaspardbondy.fr/reports/index.html
+Rapport LightHouse : https://expressart.gaspardbondy.fr/reports/fr/index.html
 
 # Structure de départ pour la SAE 105.
 
