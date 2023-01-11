@@ -3,76 +3,72 @@
  package = "@netlify/plugin-lighthouse"
  
 [[plugins.inputs.audits]]
-    output_path="reports/index.html"
-    path = "index.html"
-
-[[plugins.inputs.audits]]
-    output_path = "reports/index_en.html"
-    path = "index_en.html"
+    output_path="reports/fr/index.html"
+    path = "/fr/index.html"
     
 [[plugins.inputs.audits]]
-    output_path = "reports/bluepoles.html"
-    path = "bluepoles.html"
+    output_path = "reports/fr/bluepoles.html"
+    path = "/fr/bluepoles.html"
     
 [[plugins.inputs.audits]]
-    output_path = "reports/contact.html"
-    path = "contact.html"
+    output_path = "reports/fr/contact.html"
+    path = "/fr/contact.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/edward_munch.html"
-    path = "edward_munch.html"
+    output_path = "reports/fr/edward_munch.html"
+    path = "/fr/edward_munch.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/expressionnisme.html"
-    path = "expressionnisme.html"
+    output_path = "reports/fr/expressionnisme.html"
+    path = "/fr/expressionnisme.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/infos_pratiques.html"
-    path = "infos_pratiques.html"
+    output_path = "reports/fr/infos_pratiques.html"
+    path = "/fr/infos_pratiques.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/jackson_pollock.html"
-    path = "jackson_pollock.html"
+    output_path = "reports/fr/jackson_pollock.html"
+    path = "/fr/jackson_pollock.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/jardin_arc.html"
-    path = "jardin_arc.html"
+    output_path = "reports/fr/jardin_arc.html"
+    path = "/fr/jardin_arc.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/lamort.html"
-    path = "lamort.html"
+    output_path = "reports/fr/lamort.html"
+    path = "/fr/lamort.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/lecri.html"
-    path = "lecri.html"
+    output_path = "reports/fr/lecri.html"
+    path = "/fr/lecri.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/les_oliviers.html"
-    path = "les_oliviers.html"
+    output_path = "reports/fr/les_oliviers.html"
+    path = "/fr/les_oliviers.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/mural.html"
-    path = "mural.html"
+    output_path = "reports/fr/mural.html"
+    path = "/fr/mural.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/nos_tarifs.html"
-    path = "nos_tarifs.html"
+    output_path = "reports/fr/nos_tarifs.html"
+    path = "/fr/nos_tarifs.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/nuit_etoilee.html"
-    path = "nuit_etoilee.html"
+    output_path = "reports/fr/nuit_etoilee.html"
+    path = "/fr/nuit_etoilee.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/paul_klee.html"
-    path = "paul_klee.html"
+    output_path = "reports/fr/paul_klee.html"
+    path = "/fr/paul_klee.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/thedream.html"
-    path = "thedream.html"
+    output_path = "reports/fr/thedream.html"
+    path = "/fr/thedream.html"
 
 [[plugins.inputs.audits]]
-    output_path = "reports/vincent_van_gogh.html"
-    path = "vincent_van_gogh.html"
+    output_path = "reports/fr/vincent_van_gogh.html"
+    path = "/fr/vincent_van_gogh.html"
 
 
 
