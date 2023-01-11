@@ -39,23 +39,42 @@
     </header>
     <main>
         <h5>Mais qui est Edward Munch ?</h5>
-        <p>Edward Munch était un artiste norvégien connu pour son œuvre "The Scream" qui est devenue l'un des symboles les plus célèbres de l'expressionnisme. Il était également un peintre, graveur et illustrateur. Ses œuvres ont souvent abordé des thèmes liés aux émotions humaines telles que l'angoisse, la solitude et l'érotisme. Il a également été influencé par les problèmes de son époque tels que la guerre et les maladies. Munch a également joué un rôle important dans le développement de l'expressionnisme en Norvège et en Europe. Il est considéré comme l'un des artistes les plus importants de son époque et continue d'influencer les artistes contemporains.</p>
+        <p class="p_noir_2">Edward Munch était un artiste norvégien connu pour son œuvre "The Scream" qui est devenue l'un des symboles les plus célèbres de l'expressionnisme. Il était également un peintre, graveur et illustrateur. Ses œuvres ont souvent abordé des thèmes liés aux émotions humaines telles que l'angoisse, la solitude et l'érotisme. Il a également été influencé par les problèmes de son époque tels que la guerre et les maladies. Munch a également joué un rôle important dans le développement de l'expressionnisme en Norvège et en Europe. Il est considéré comme l'un des artistes les plus importants de son époque et continue d'influencer les artistes contemporains.</p>
         <h5>Oeuvre de Edward Munch</h5>
-        <a href="/fr/lecri.html"><img src="/public/img/Le-Cri-Edward-Munch.webp" alt="Le cri, Edward Munch"></a>
-        <img src="/public/img/Edward_Munch.webp" alt="Photo de Edward Munch">
-        <a href="/fr/lamort.html"><img src="/public/img/la-mort-de-Marat-Edward-Munch.webp" alt="La mort de Marat, Edward Munch"></a>
-        <div>
-            <img src="/public/icone/Rond_noir.svg" alt="Rond noir">
-            <img src="/public/icone/Rond_gris.svg" alt="Rond gris">
-            <img src="/public/icone/Rond_gris.svg" alt="Rond gris">
-        </div>
-        <div>
-            <img src="/public/icone/bouton_gauche.svg" alt="Bouton gauche">
-            <img src="/public/icone/bouton_droit.svg" alt="Bouton droit">
+        <div class="carrousel" x-data="{}">
+            <div class="carrousel_parent-ecrans" x-ref="parent">
+                <div id="ecran-1" class="carrousel_content">
+                    <figure>
+                        <a href="/fr/lecri.html"><img src="/public/img/Le-Cri-Edward-Munch.webp" alt="Le cri, Edward Munch"></a>
+                        <figcaption class="p_blanc_2" >Le cri, Edward Munch</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-2" class="carrousel_content">
+                    <figure>
+                        <img src="/public/img/Edward_Munch.webp" alt="Photo de Edward Munch">
+                        <figcaption class="p_blanc_2" >Edward Munch</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-3" class="carrousel_content">
+                    <figure>
+                        <a href="/fr/lamort.html"><img src="/public/img/la-mort-de-Marat-Edward-Munch.webp" alt="La mort de Marat, Edward Munch"></a>
+                        <figcaption class="p_blanc_2" >La mort de Marat, Edward Munch</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="carrousel_bouton">
+                <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth/2" class="carrousel_bouton_gauche" aria-label="slide précedent">
+                <img src="/public/icone/bouton_gauche.svg" alt="fleche gauche">
+                </button>
+        
+                <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth/2" class="carrousel_bouton_droit" aria-label="slide suivant"> 
+                <img src="/public/icone/bouton_droit.svg" alt="fleche droite">
+                </button>
+            </div>
         </div>
         <article>
             <h3>En savoir plus sur les oeuvres de Edward Munch ?</h3>
-            <p>Cliquer sur les oeuvres de l'artiste pour en savoir plus !</p>
+            <p class="p_blanc">Cliquer sur les oeuvres de l'artiste pour en savoir plus !</p>
         </article>
     </main>
     <footer>
