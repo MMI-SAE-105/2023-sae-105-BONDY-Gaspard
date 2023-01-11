@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;/* change le box model */
+    }
+
+img {
+      height: auto;
+    }
+.carrousel_parent-ecrans {
+      display: flex;
+      width: 100%;
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+      scroll-snap-type: x mandatory;
+    
+    }
+.carrousel_content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-inline: 5%;
+    background-color: var(--violet-clair);
+    border-radius: 5%;
+    border: 2px solid var(--tonic-color);
+    flex: none;
+    scroll-snap-align:center;
+      /* largeur du parent pour chaque enfant */
+      /* permet de garder toute la largeur du parent */
+    }
+.carrousel_ecran figure {
+/* enlève les marges par défaut */
+    margin: 0;
+}
+
+.carrousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+      
+.carrousel_btn {
+    position: absolute;
+    top: 50%; /* centre verticalement */
+    transform: translateY(-50%); /* methode du point mort */
+    width: 2rem;
+    height: 2rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: #fff;
+}
+      
+.carrousel_bouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.carrousel_bouton_gauche {
+    margin-top: 2%;
+    position: relative;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 70px;
+    height: auto;
+}
+      
+.carrousel_bouton_droit {
+    margin-top: 2%;
+    position: relative;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 70px;
+    height: auto;
+}
+
+.carrousel_content_img {
+    margin-inline: 5%;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    margin-bottom: 0;
+}
