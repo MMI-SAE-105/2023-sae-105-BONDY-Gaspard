@@ -32,3 +32,19 @@ article {
     margin-bottom: 15%;
     margin-top: 5%;
 }
+
+.frise_content {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.galerie_content {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-inline: 5%;
+    gap: 5%;
+    margin: auto;
+}

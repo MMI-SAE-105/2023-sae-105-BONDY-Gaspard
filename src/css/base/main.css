@@ -34,6 +34,7 @@ main {
     color: var(--noir-texte);
     margin-inline: 5%;
     margin-bottom: 5%;
+    margin-top: 10%;
 }
 
 .p_blanc {
@@ -43,6 +44,7 @@ main {
     color: var(--blanc-texte);
     margin-inline: 5%;
     margin-bottom: 8%;
+    padding-bottom: 10%;
 }
 
 h3 {
@@ -73,4 +75,5 @@ h5 {
     font-size: 18px;
     color: var(--noir-texte);
     margin-inline: 5%;
+    margin-top: 5%;
 }
