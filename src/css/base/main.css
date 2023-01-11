@@ -37,6 +37,17 @@ main {
     margin-top: 5%;
 }
 
+.p_noir_2_special {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--noir-texte);
+    margin-inline: 5%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+
 .p_noir_3 {
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
@@ -45,6 +56,18 @@ main {
     margin-bottom: -10%;
     margin-inline: 5%;
     margin-top: 15%;
+}
+
+.p_noir_4 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--noir-texte);
+    margin-bottom: -10%;
+    margin-inline: 5%;
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
 }
 
 .p_blanc_2 {

@@ -44,6 +44,23 @@
         <img src="/public/img/Le-jardin-de-l_arc-en-ciel-paul-klee.webp" alt="Le Jardin Arc en Ciel, Paul Klee">
         <p class="p_noir_2">Le jardin est baigné dans un éclairage magique qui crée un sentiment de mouvement et de dynamisme, renforcé par les formes mouvantes et les couleurs qui semblent se fondre les unes dans les autres. Cette œuvre reflète l'intérêt de Paul Klee pour les mathématiques et la musique, et sa capacité à créer des images à la fois poétiques et expressives.</p>
         <p class="p_noir_2">En résumé, Le Jardin Arc-en-ciel est un exemple de l'originalité de Paul Klee en termes de style, de technique et d'utilisation des couleurs, qui a permis de créer un univers fantastique et abstrait, où les formes et les couleurs se mêlent pour créer une ambiance unique.</p>
+        <div x-data="{ open: false }">
+            <button class="bouton_voirplus" @click="open = ! open">Voir plus</button>
+            <div
+                class="p_noir_2_special"
+                x-show="open"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-90"
+                x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 scale-100"
+                x-transition:leave-end="opacity-0 scale-90"
+                >Pour encore et plus d'informations,
+                <div class="p_noir_4">
+                    <a class="p_noir_4" href="https://fr.wahooart.com/@@/8LT472-Paul-Klee-Oriental-Jardin-1" target="_blank">Cliquer ici</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <img class="footer_image" src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">

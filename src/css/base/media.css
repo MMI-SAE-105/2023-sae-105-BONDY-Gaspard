@@ -49,3 +49,23 @@ article {
     gap: 5%;
     margin: auto;
 }
+
+.bouton_voirplus {
+    background-color: var(--violet-clair);
+    border-color: var(--violet-clair);
+    display: flex;
+    margin: auto;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    color: var(--blanc-texte);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    cursor: pointer;
+    height: 25px;
+    padding-inline: 2%;
+}
+
+button :hover {
+    background-color: var(--violet-fonce);
+}

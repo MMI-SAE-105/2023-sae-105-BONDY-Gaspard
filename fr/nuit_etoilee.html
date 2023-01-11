@@ -43,7 +43,24 @@
         <p class="p_noir_2">La Nuit étoilée représente un paysage de nuit dans le sud de la France, avec un ciel étoilé et une route sinueuse bordée d'arbres. On peut voir une ferme et une église au loin. Van Gogh a utilisé des couleurs vives et des lignes sinueuses pour donner une sensation de mouvement et de dynamisme à la peinture.</p>
         <img src="/public/img/La_nuit_etoilee_2.webp" alt="La nuit étoilée, Van Gogh">
         <p class="p_noir_2">La Nuit étoilée est considérée comme l'une des œuvres les plus célèbres de Van Gogh et l'une des peintures les plus connues de l'histoire de l'art. Elle a été inspirée par les lettres que Van Gogh avait écrites à son frère Theo, dans lesquelles il décrivait ses impressions de la vie à Arles, en France. Van Gogh a passé un an à Arles et a produit un grand nombre de peintures célèbres pendant cette période, notamment La Nuit étoilée.</p>
-    </main>
+        <div x-data="{ open: false }">
+          <button class="bouton_voirplus" @click="open = ! open">Voir plus</button>
+          <div
+              class="p_noir_2_special"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="opacity-0 scale-90"
+              x-transition:enter-end="opacity-100 scale-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="opacity-100 scale-100"
+              x-transition:leave-end="opacity-0 scale-90"
+              >Pour encore et plus d'informations,
+              <div class="p_noir_4">
+                  <a class="p_noir_4" href="https://fr.wikipedia.org/wiki/La_Nuit_%C3%A9toil%C3%A9e_(1889)" target="_blank">Cliquer ici</a>
+              </div>
+          </div>
+      </div>
+      </main>
     <footer>
       <img class="footer_image" src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">
       <h6>MENU</h6>

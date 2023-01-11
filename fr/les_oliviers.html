@@ -43,6 +43,23 @@
         <p class="p_noir_2">Dans ces peintures, Van Gogh a utilisé des couleurs vibrantes et des traits de pinceau énergiques pour capturer la beauté des oliviers et la force de la nature. Les arbres sont souvent dessinés de manière simplifiée, avec des branches épaisses et des feuilles en forme de gouttes, qui rappellent les mouvements de l'eau. Les arbres sont souvent les sujets principaux de ces œuvres, baignant dans un paysage vaste, dans des couleurs vives et contrastées, avec un ciel tourmenté en arrière-plan qui renforce l'aspect sauvage de la nature.</p>
         <img src="/public/img/Les_oliviers_van_gogh.webp" alt="Les Oliviers, Van Gogh">
         <p class="p_noir_2">Les toiles des "Oliviers" sont considérées comme l'une des œuvres les plus importantes de Van Gogh et continuent d'inspirer les artistes contemporains. ces œuvres montrent l'expression profonde de la nature vue par l'artiste, et comment il a cherché à capturer cette nature dans son art.</p>
+        <div x-data="{ open: false }">
+            <button class="bouton_voirplus" @click="open = ! open">Voir plus</button>
+            <div
+                class="p_noir_2_special"
+                x-show="open"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-90"
+                x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 scale-100"
+                x-transition:leave-end="opacity-0 scale-90"
+                >Pour encore et plus d'informations,
+                <div class="p_noir_4">
+                    <a class="p_noir_4" href="https://fr.wikipedia.org/wiki/Oliviers" target="_blank">Cliquer ici</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <img class="footer_image" src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">

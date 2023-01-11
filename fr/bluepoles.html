@@ -44,6 +44,23 @@
         <img src="/public/img/Blue-Poles-Jackson-Pollock.webp" alt="Blue Poles, Jackson Pollock">
         <p class="p_noir_2">La composition est complexe et dense, avec des couches de couleurs et de formes qui semblent s'entrelacer et se croiser, créant un sentiment de mouvement et de dynamisme. Les formes et les couleurs se superposent dans un jeu complexe de couches et de textures, qui crée une impression de profondeur dans la toile.</p>
         <p class="p_noir_2">En résumé, "Blue Poles" est un exemple de la virtuosité de Jackson Pollock en matière de technique, de style et d'utilisation des couleurs, qui a permis de créer une œuvre abstraite intense, émotionnelle et complexe, qui exprime une grande énergie et une grande virtuosité.</p>
+        <div x-data="{ open: false }">
+            <button class="bouton_voirplus" @click="open = ! open">Voir plus</button>
+            <div
+                class="p_noir_2_special"
+                x-show="open"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-90"
+                x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 scale-100"
+                x-transition:leave-end="opacity-0 scale-90"
+                >Pour encore et plus d'informations,
+                <div class="p_noir_4">
+                    <a class="p_noir_4" href="https://fr.wikipedia.org/wiki/Blue_Poles" target="_blank">Cliquer ici</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <img class="footer_image" src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">

@@ -44,6 +44,23 @@
         <img src="/public/img/Mural-Jackson-Pollock.webp" alt="Mural, Jackson Pollock">
         <p class="p_noir_2">La composition est complexe et dense, avec des couches de couleurs et de formes qui semblent s'entrelacer et se croiser, créant un sentiment de mouvement et de dynamisme. La technique de Pollock de déposer les peintures sur la toile en utilisant des pinceaux, des brosses et même des bâtons lui a permis de créer un effet tridimensionnel, qui renforce l'impression de profondeur dans la toile.</p>
         <p class="p_noir_2">En résumé, "Mural" est un exemple de l'innovation de Jackson Pollock en termes de technique et de style, qui a permis de créer une œuvre abstraite intense et émotionnelle, avec une utilisation habile des formes et des couleurs, qui exprime une grande énergie et une grande virtuosité.</p>
+        <div x-data="{ open: false }">
+            <button class="bouton_voirplus" @click="open = ! open">Voir plus</button>
+            <div
+                class="p_noir_2_special"
+                x-show="open"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-90"
+                x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 scale-100"
+                x-transition:leave-end="opacity-0 scale-90"
+                >Pour encore et plus d'informations,
+                <div class="p_noir_4">
+                    <a class="p_noir_4" href="https://en.wikipedia.org/wiki/Mural_(1943)" target="_blank">Cliquer ici</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <img class="footer_image" src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">

@@ -45,6 +45,23 @@
         <p class="p_noir_2">Munch a décrit cette œuvre comme "l'expression d'une angoisse universelle", reflétant les tourments de l'âme humaine. Il a également décrit la scène comme inspirée par une promenade qu'il a faite à Oslo, où il a vu "un rouge vif dans le ciel, comme un grand incendie".</p>
         <p class="p_noir_2">Le Cri a été l'un des premiers exemples de l'expressionnisme, un mouvement artistique qui mettait l'accent sur les émotions et les états d'âme plutôt que sur la réalité objective. Il a également été influent pour l'Art abstrait et sur les courant de l'art contemporain.</p>
         <p class="p_noir_2">Cette œuvre est devenue l'une des plus célèbres et des plus reconnaissables de l'histoire de l'art et a été largement commentée et interprétée par les critiques d'art et les historiens de l'art. Elle est aujourd'hui conservée dans les collections du Musée d'Oslom et a été reproduite des milliers de fois sous différentes formes.</p>
+        <div x-data="{ open: false }">
+            <button class="bouton_voirplus" @click="open = ! open">Voir plus</button>
+            <div
+                class="p_noir_2_special"
+                x-show="open"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-90"
+                x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 scale-100"
+                x-transition:leave-end="opacity-0 scale-90"
+                >Pour encore et plus d'informations,
+                <div class="p_noir_4">
+                    <a class="p_noir_4" href="https://fr.wikipedia.org/wiki/Le_Cri" target="_blank">Cliquer ici</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <img class="footer_image" src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">

@@ -44,6 +44,23 @@
         <img src="/public/img/The-dream-Paul-klee.webp" alt="The Dream, Paul Klee">
         <p class="p_noir_2">La composition est équilibrée, avec des formes répétées et des couleurs qui se complètent, donnant un sentiment de calme et de harmonie. Cette œuvre reflète l'intérêt de Klee pour les contes de fées et les légendes, ainsi que pour les croyances populaires et les symboles ésotériques, qui ont inspiré beaucoup de son travail artistique.</p>
         <p class="p_noir_2">En résumé, "The Dream" est une œuvre abstraite, poétique et fantaisiste de Paul Klee, qui reflète son intérêt pour les rêves, les contes de fées et les symboles ésotériques, avec une utilisation habile des formes et des couleurs pour créer une ambiance onirique et mystérieuse.</p>
+        <div x-data="{ open: false }">
+            <button class="bouton_voirplus" @click="open = ! open">Voir plus</button>
+            <div
+                class="p_noir_2_special"
+                x-show="open"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-90"
+                x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 scale-100"
+                x-transition:leave-end="opacity-0 scale-90"
+                >Pour encore et plus d'informations,
+                <div class="p_noir_4">
+                    <a class="p_noir_4" href="https://www.thehistoryofart.org/paul-klee/strong-dream/" target="_blank">Cliquer ici</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <img class="footer_image" src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">
