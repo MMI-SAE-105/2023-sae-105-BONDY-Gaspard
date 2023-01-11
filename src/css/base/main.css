@@ -110,3 +110,13 @@ h5 {
     margin-top: 5%;
     padding-top: 10%;
 }
+
+.artiste_citation {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    color: var(--noir-texte);
+    margin-inline: 5%;
+    text-align: center;
+}
