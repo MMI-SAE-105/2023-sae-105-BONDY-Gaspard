@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-<title>404 | Page non trouvée</title>
-<h1>Page non trouvée</h1>
-<H2>ERREUR 404</H2>
-<form action="https://google.com/" method="GET" 
-    x-data="{ q:'', }" 
-    x-on:submit="q = q + ' site:r'expressart.gaspardbondy.fr">
-    <label for="q">Que cherchez-vous ?</label>
-    <input type="text" id="q" name="q" x-model="q">
-    <button type="submit">Rechercher</button>
-</form>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/public/img/Logo_EXPRESS_S_ART.webp">
+    <meta name="description" content="Page 404">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="/src/css/pages/style.css">
+    <title>404 | Page non trouvée</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class ="bouton_home" href="/fr/index.html">
+                <img  src="/public/icone/musee.svg" alt="Bouton pour retourner à l'accueil"></a>
+            <div class="menu-overlay" x-data="{ open: false }">
+              <button @click="open = !open" class="menu-toggle">
+                <img src="/public/icone/menu_hamburger.svg" alt="icone du menu">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div x-show="open" class="overlay">
+                <nav>
+                  <ul>
+                    <li><a href="/fr/expressionnisme.html">Expressionnisme</a></li>
+                    <li><a href="/fr/nos_tarifs.html">Nos Tarifs</a></li>
+                    <li><a href="/fr/infos_pratiques.html">Infos Pratiques</a></li>
+                    <li><a href="/fr/contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        <h1>EXPRESS's ART</h1>
+        <hr noshade class="header_line">
+        <h2>Erreur 404</h2>
+        
+        <img class="header_illustration" src="/public/img/illustration_page_accueil.webp" alt="Image d'illustration">
+    </header>
+        <main>
+            <h5 class="h5_404">Page introuvable</h5>
+            <h5 class="h5_404">Erreur 404</h5>
+            <form class="form_404"action="https://google.com/" method="GET"
+            x-data="{ q:'', }" 
+            x-on:submit="q = q + ' site:r'expressart.gaspardbondy.fr">
+            <label for="q">Que cherchez-vous ?</label>
+            <input noshade class="form_input_404" type="text" id="q" name="q" x-model="q">
+            <button class="form_404_button" type="submit">Rechercher</button>
+            </form>
+        </main>
+        <footer>
+            <img class="footer_image" src="/public/img/Logo_EXPRESS_S_ART_2.webp" alt="Logo du site EXPRESS's ART">
+            <h6>MENU</h6>
+            <ul class="footer_ul">
+                <li class="footer_li"><a class="footer_li_content" href="/fr/index.html">ACCUEIL</a></li>
+                <li class="footer_li"><a class="footer_li_content" href="/fr/infos_pratiques.html">INFOS PRATIQUES</a></li>
+                <li class="footer_li"><a class="footer_li_content" href="/fr/nos_tarifs.html">NOS TARIFS</a></li>
+                <li class="footer_li"><a class="footer_li_content" href="/fr/contact.html">CONTACT</a></li>
+            </ul>
+            <h6>CONTACT</h6>
+            <a class="footer_mailto" href="mailto:contact@expressart.fr">contact@expressart.fr</a>
+            <h6>NOUS SUIVRE</h6>
+            <div class="footer_align_items">
+                <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
+                    <img src="/public/icone/ytb.svg" alt="Logo YouTube">
+                </a>
+                <a href="https://twitter.com/GaspardTex" target="_blank">
+                    <img src="/public/icone/twitter.svg" alt="Logo Twitter">
+                </a>
+                <a href="https://www.twitch.tv/gaspardtex" target="_blank">
+                    <img src="/public/icone/twitch.svg" alt="Logo Twitch">
+                </a>
+                <a href="https://www.instagram.com/gaspardtex/?hl=fr" target="_blank">
+                    <img src="/public/icone/insta.svg" alt="Logo Instagram">
+                </a>
+            </div>
+            <h6>©EXPRESS’s ART</h6>
+        </footer>
+</body>
+</html>
