@@ -2,3 +2,57 @@ footer {
     background-color: var(--violet-fonce);
     padding-bottom: 5%;
 }
+
+.footer_image {
+    display: flex;
+    margin: auto;
+    width: 40%;
+}
+
+h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--blanc-texte);
+    margin-inline: 5%;
+    opacity: 50%;
+}
+
+.footer_ul {
+    list-style: none;
+}
+
+.footer_li {
+    
+}
+
+.footer_li_content {
+    text-decoration: none;
+    color: var(--blanc-texte);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-inline: 1%;
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.footer_mailto {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--blanc-texte);
+    opacity: 50%;
+    text-decoration: none;
+    margin-inline: 5%;
+    display: flex;
+    margin-top: -3%;
+}
+
+.footer_align_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 5%;
+    margin-right: 55%;
+}
