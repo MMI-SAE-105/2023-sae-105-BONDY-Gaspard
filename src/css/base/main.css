@@ -90,3 +90,13 @@ h5 {
     margin-top: 5%;
     padding-top: 10%;
 }
+
+.h5_special {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    color: var(--noir-texte);
+    margin-inline: 4%;
+    margin-top: 5%;
+    padding-top: 10%;
+}
