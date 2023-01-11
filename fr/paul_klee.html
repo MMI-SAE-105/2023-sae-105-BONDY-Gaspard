@@ -39,23 +39,45 @@
     </header>
     <main>
         <h5>Mais qui est Paul Klee ?</h5>
-        <p>Paul Klee était un artiste suisse connu pour son style abstrait et original, qui combinait des éléments de différents mouvements artistiques tels que l'expressionnisme, le cubisme et le surréalisme. Il a également été influencé par la musique et les mathématiques, et a utilisé des couleurs vibrantes et des formes simples dans ses œuvres. Il a enseigné à l'École de Bauhaus en Allemagne avant de retourner en Suisse pendant la Seconde Guerre mondiale. Klee est considéré comme l'un des artistes les plus importants du XXe siècle et continue d'influencer les artistes contemporains.</p>
+        <p class="p_noir_2">Paul Klee était un artiste suisse connu pour son style abstrait et original, qui combinait des éléments de différents mouvements artistiques tels que l'expressionnisme, le cubisme et le surréalisme. Il a également été influencé par la musique et les mathématiques, et a utilisé des couleurs vibrantes et des formes simples dans ses œuvres. Il a enseigné à l'École de Bauhaus en Allemagne avant de retourner en Suisse pendant la Seconde Guerre mondiale. Klee est considéré comme l'un des artistes les plus importants du XXe siècle et continue d'influencer les artistes contemporains.</p>
         <h5>Oeuvre de Paul Klee</h5>
-        <a href="/fr/jardin_arc.html"><img src="/public/img/Le-jardin-de-l_arc-en-ciel-paul-klee.webp" alt="Le jardin de l arc en ciel, Paul Klee"></a>
-        <img src="/public/img/paul_klee.webp" alt="Photo de Paul Klee">
-        <a href="/fr/thedream.html"><img src="/public/img/The-dream-Paul-klee.webp" alt="The Dream, Paul Klee"></a>
-        <div>
-            <img src="/public/icone/Rond_noir.svg" alt="Rond noir">
-            <img src="/public/icone/Rond_gris.svg" alt="Rond gris">
-            <img src="/public/icone/Rond_gris.svg" alt="Rond gris">
-        </div>
-        <div>
-            <img src="/public/icone/bouton_gauche.svg" alt="Bouton gauche">
-            <img src="/public/icone/bouton_droit.svg" alt="Bouton droit">
+        
+      
+        
+        <div class="carrousel" x-data="{}">
+            <div class="carrousel_parent-ecrans" x-ref="parent">
+                <div id="ecran-1" class="carrousel_content">
+                    <figure>
+                        <a href="/fr/jardin_arc.html"><img src="/public/img/Le-jardin-de-l_arc-en-ciel-paul-klee.webp" alt="Le jardin de l arc en ciel, Paul Klee"></a>
+                        <figcaption class="p_blanc_2" >Le jardin de l'arc en ciel, Paul Klee</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-2" class="carrousel_content">
+                    <figure>
+                        <img src="/public/img/paul_klee.webp" alt="Photo de Paul Klee">
+                        <figcaption class="p_blanc_2" >Paul Klee</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-3" class="carrousel_content">
+                    <figure>
+                        <a href="/fr/thedream.html"><img src="/public/img/The-dream-Paul-klee.webp" alt="The Dream, Paul Klee"></a>
+                        <figcaption class="p_blanc_2" >The Dream, Paul Klee</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="carrousel_bouton">
+                <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth/2" class="carrousel_bouton_gauche" aria-label="slide précedent">
+                <img src="/public/icone/bouton_gauche.svg" alt="fleche gauche">
+                </button>
+        
+                <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth/2" class="carrousel_bouton_droit" aria-label="slide suivant"> 
+                <img src="/public/icone/bouton_droit.svg" alt="fleche droite">
+                </button>
+            </div>
         </div>
         <article>
             <h3>En savoir plus sur les oeuvres de Paul Klee ?</h3>
-            <p>Cliquer sur les oeuvres de l'artiste pour en savoir plus !</p>
+            <p class="p_blanc">Cliquer sur les oeuvres de l'artiste pour en savoir plus !</p>
         </article>
     </main>
     <footer>
