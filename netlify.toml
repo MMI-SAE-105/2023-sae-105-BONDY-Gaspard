@@ -1,78 +1,78 @@
-# Configuration for a plugin published to npm
+# Configuration for a plugin publishe
 [[plugins]]
  package = "@netlify/plugin-lighthouse"
  
 [[plugins.inputs.audits]]
     output_path="reports/index.html"
-    path = "reports/index.html"
+    path = "index.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/index_en.html"
-    path = "reports/index_en.html"
+    path = "index_en.html"
     
 [[plugins.inputs.audits]]
     output_path = "reports/bluepoles.html"
-    path = "reports/bluepoles.html"
+    path = "bluepoles.html"
     
 [[plugins.inputs.audits]]
     output_path = "reports/contact.html"
-    path = "reports/contact.html"
+    path = "contact.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/edward_munch.html"
-    path = "reports/edward_munch.html"
+    path = "edward_munch.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/expressionnisme.html"
-    path = "reports/expressionnisme.html"
+    path = "expressionnisme.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/infos_pratiques.html"
-    path = "reports/infos_pratiques.html"
+    path = "infos_pratiques.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/jackson_pollock.html"
-    path = "reports/jackson_pollock.html"
+    path = "jackson_pollock.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/jardin_arc.html"
-    path = "reports/jardin_arc.html"
+    path = "jardin_arc.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/lamort.html"
-    path = "reports/lamort.html"
+    path = "lamort.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/lecri.html"
-    path = "reports/lecri.html"
+    path = "lecri.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/les_oliviers.html"
-    path = "reports/les_oliviers.html"
+    path = "les_oliviers.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/mural.html"
-    path = "reports/mural.html"
+    path = "mural.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/nos_tarifs.html"
-    path = "reports/nos_tarifs.html"
+    path = "nos_tarifs.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/nuit_etoilee.html"
-    path = "reports/nuit_etoilee.html"
+    path = "nuit_etoilee.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/paul_klee.html"
-    path = "reports/paul_klee.html"
+    path = "paul_klee.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/thedream.html"
-    path = "reports/thedream.html"
+    path = "thedream.html"
 
 [[plugins.inputs.audits]]
     output_path = "reports/vincent_van_gogh.html"
-    path = "reports/vincent_van_gogh.html"
+    path = "vincent_van_gogh.html"
 
 
 
